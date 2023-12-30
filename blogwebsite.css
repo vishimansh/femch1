@@ -1,0 +1,268 @@
+*{
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+cursor:grab;
+
+}
+
+@font-face {
+    font-family: figtree;
+    src: url(Figtree-VariableFont_wght.ttf);
+}
+body
+{
+width:1440px ;
+height: 100vh;
+overflow: hidden;
+background-color:hsl(47, 88%, 63%);
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+#bigbox{width: 21.6%;
+height: 58.5%;
+background-color:hsl(0, 0%, 100%) ;
+border-radius: 18px;
+box-shadow: 7.5px 7px ;
+border: 1px solid black;}
+
+#box1
+{
+width: 100%;
+height: 42.5%;
+
+}
+
+#box2
+{
+width: 100%;
+height: 57.5%;
+
+}
+
+#imagediv
+{
+width: 88%;
+height: 94%;
+background-color: antiquewhite;
+margin-left: 6%;
+margin-top: 6%;
+border-radius: 9px;
+}
+
+#article
+{
+    width: 100%;
+    height:100%;
+    border-radius: 9px;
+}
+
+button
+{
+background-color: hsl(47, 88%, 63%);
+border: none;
+width: 21.443%;
+height: 10.3%;
+font-size: 12.3px;
+font-weight: 800;
+font-family: figtree;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 3.89px ;
+margin-left: 6%;
+margin-top: 3%;
+}
+#box2 h4{
+font-size: 11.78px;
+font-weight: 600;
+font-family: figtree;
+margin-left: 6%;
+margin-top: 2.78%;
+}
+
+#box2 h2{
+    font-size: 20.78px;
+    font-weight: 800;
+    font-family: figtree;
+    margin-left: 6%;
+    margin-top: 2.78%;
+    }
+
+    #box2 p{
+        font-size: 13px;
+        font-weight: 600;
+        font-family: figtree;
+        margin-left: 6%;
+        margin-top: 3.78%;
+        color: hsl(0, 0%, 50%);
+        line-height: 20px;
+        }
+        #header
+        {
+        width: 100%;
+        height: 80%;
+        }
+        #footer
+        {
+        width: 100%;
+        height: 20%;
+        display: flex;
+       align-items:center;
+ 
+        }
+
+        #footer img{
+        width: 9.3%;
+        height:58.5%;
+        position: relative;
+        top: -57%;
+        left: 6%;
+        }
+        #footer h5{
+            width: 40.3%;
+            height:58.5%;
+            position: relative;
+            top: -44.4%;
+            left: 9%;
+font-family: figtree;
+font-size: 12px;
+font-weight: 800;
+            }
+            #box2 h2:active{
+            color: hsl(47, 88%, 63%);
+            }
+            #bigbox:has(#box2 h2:active){box-shadow: 12px 12px;}
+
+@media (max-width:375px) {
+    body
+{
+width:100vw;
+height: 100vh;
+overflow: hidden;
+background-color:hsl(47, 88%, 63%);
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+#bigbox{width: 90%;
+height: 70%;
+background-color:hsl(0, 0%, 100%) ;
+border-radius: 18px;
+box-shadow: 1px 7px ;
+border: 1px solid black;}
+
+#box1
+{
+width: 100%;
+height: 42.5%;
+
+}
+
+#box2
+{
+width: 100%;
+height: 57.5%;
+
+}
+
+#imagediv
+{
+width: 88%;
+height: 94%;
+background-color: antiquewhite;
+margin-left: 6%;
+margin-top: 6%;
+border-radius: 9px;
+}
+
+#article
+{
+    width: 100%;
+    height:100%;
+    border-radius: 9px;
+}
+
+button
+{
+background-color: hsl(47, 88%, 63%);
+border: none;
+width: 21.443%;
+height: 10.3%;
+font-size: 12.3px;
+font-weight: 800;
+font-family: figtree;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 3.89px ;
+margin-left: 6%;
+margin-top: 3%;
+}
+#box2 h4{
+font-size: 11.78px;
+font-weight: 600;
+font-family: figtree;
+margin-left: 6%;
+margin-top: 2.78%;
+}
+
+#box2 h2{
+    font-size: 20.78px;
+    font-weight: 800;
+    font-family: figtree;
+    margin-left: 6%;
+    margin-top: 2.78%;
+    }
+
+    #box2 p{
+        font-size: 13px;
+        font-weight: 600;
+        font-family: figtree;
+        margin-left: 6%;
+        margin-top: 3.78%;
+        color: hsl(0, 0%, 50%);
+        line-height: 20px;
+        }
+        #header
+        {
+        width: 100%;
+        height: 80%;
+        }
+        #footer
+        {
+        width: 100%;
+        height: 20%;
+        display: flex;
+       align-items:center;
+ 
+        }
+
+        #footer img{
+        width: 9.3%;
+        height:58.5%;
+        position: relative;
+        top: -57%;
+        left: 6%;
+        }
+        #footer h5{
+            width: 40.3%;
+            height:58.5%;
+            position: relative;
+            top: -44.4%;
+            left: 9%;
+font-family: figtree;
+font-size: 12px;
+font-weight: 800;
+            }
+            #box2 h2:active{
+            color: hsl(47, 88%, 63%);
+            }
+            #bigbox:has(#box2 h2:active){box-shadow: 12px 12px;}
+}
+ 
